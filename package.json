@@ -1,7 +1,7 @@
 {
 	"name": "fmentor-single-price-jasmine",
 	"version": "1.0.0",
-	"description": "single price grid component using jasmine testing",
+	"description": "single price grid component using jasmine",
 	"main": "index.js",
 	"type": "module",
 	"scripts": {
