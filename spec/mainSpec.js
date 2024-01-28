@@ -29,11 +29,11 @@ describe('DOM', () => {
 		}
 	});
 
-	it('should have a string type of card mark content element', () => {
-		const cardMarkContent =
-			document.querySelector('.card__mark').textContent;
+	it('should have a string type of card subtitle content element', () => {
+		const cardSubtitleContent =
+			document.querySelector('.card__subtitle').textContent;
 
-		expect(cardMarkContent).toBeInstanceOf(String);
+		expect(cardSubtitleContent).toBeInstanceOf(String);
 	});
 
 	it("should have a title element that contains 'Join our community' word in first section element", () => {
