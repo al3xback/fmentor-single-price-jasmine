@@ -33,9 +33,6 @@
 }
 
 .btn--link {
-	padding: 0;
-	background-color: transparent;
-	box-shadow: none;
 	color: var.$color-cyan;
 }
 
@@ -45,4 +42,5 @@
 
 .btn--full {
 	display: flex;
+	width: 100%;
 }
