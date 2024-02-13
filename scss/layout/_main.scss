@@ -4,7 +4,9 @@ main > .container {
 	flex: auto;
 }
 
-main > .container {
-	justify-content: center;
-	align-items: center;
+@media (min-width: 48em) {
+	main > .container {
+		justify-content: center;
+		align-items: center;
+	}
 }
